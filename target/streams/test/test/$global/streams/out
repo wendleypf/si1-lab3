@@ -1,0 +1,73 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for com.novocode.junit.JUnitFramework produced 5 initial tasks for 5 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(controllers.IntegrationTest, sbt.ForkMain$AnnotatedFingerscan@272128dd, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mIntegrationTest[0m.[36mtest[0m started[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mIntegrationTest[0m.[36mtest[0m finished, took 13.53 sec[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 1 total, 13.551s[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(ApplicationTest, sbt.ForkMain$AnnotatedFingerscan@4a521622, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36madcionarAnuncio[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36madcionarAnuncio[0m finished, took 0.318 sec[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderizarCadastrar[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderizarCadastrar[0m finished, took 0.062 sec[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderizarDetalhesAnuncio[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderizarDetalhesAnuncio[0m finished, took 0.009 sec[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderizarIndex[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mApplicationTest[0m.[36mrenderizarIndex[0m finished, took 0.019 sec[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 4 total, 0.857s[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(unidade.AnuncioTest, sbt.ForkMain$AnnotatedFingerscan@466a24a2, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmaPalavraChave[0m started[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmaPalavraChave[0m finished, took 0.211 sec[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveExistirPeloMenosUmaFormaDeContato[0m started[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveExistirPeloMenosUmaFormaDeContato[0m finished, took 0.254 sec[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmBairro[0m started[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmBairro[0m finished, took 0.162 sec[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmCidade[0m started[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmCidade[0m finished, took 0.315 sec[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveIniciarSemAnuncio[0m started[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveIniciarSemAnuncio[0m finished, took 0.224 sec[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmTitulo[0m started[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmTitulo[0m finished, took 0.147 sec[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmaDescrisao[0m started[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmaDescrisao[0m finished, took 0.138 sec[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveDeletarAnuncio[0m started[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveDeletarAnuncio[0m finished, took 0.17 sec[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmAnuncio[0m started[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmAnuncio[0m finished, took 0.166 sec[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmaListaDeInstrumentos[0m started[0m
+[0m[[0mdebug[0m] [0mTest unidade.[33mAnuncioTest[0m.[36mdeveTerUmaListaDeInstrumentos[0m finished, took 0.157 sec[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 10 total, 1.951s[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 10 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(IntegrationTest, sbt.ForkMain$AnnotatedFingerscan@4917e040, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest [33mIntegrationTest[0m.[36mtest[0m started[0m
+[0m[[0mdebug[0m] [0mTest [33mIntegrationTest[0m.[36mtest[0m finished, took 1.604 sec[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 1 total, 1.605s[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(controllers.ApplicationTest, sbt.ForkMain$AnnotatedFingerscan@450a15c4, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0m[34mTest run started[0m[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mApplicationTest[0m.[36madcionarAnuncio[0m started[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mApplicationTest[0m.[36madcionarAnuncio[0m finished, took 0.041 sec[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mApplicationTest[0m.[36mrenderizarCadastrar[0m started[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mApplicationTest[0m.[36mrenderizarCadastrar[0m finished, took 0.028 sec[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mApplicationTest[0m.[36mrenderizarDetalhesAnuncio[0m started[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mApplicationTest[0m.[36mrenderizarDetalhesAnuncio[0m finished, took 0.007 sec[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mApplicationTest[0m.[36mrenderizarIndex[0m started[0m
+[0m[[0mdebug[0m] [0mTest controllers.[33mApplicationTest[0m.[36mrenderizarIndex[0m finished, took 0.015 sec[0m
+[0m[[0mdebug[0m] [0m[34mTest run finished: [0m[34m0 failed[0m[34m, [0m[34m0 ignored[0m[34m, 4 total, 0.331s[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0mdebug[0m] [0mRunner for org.specs2.runner.Specs2Framework produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
+[0m[[0minfo[0m] [0mPassed: Total 20, Failed 0, Errors 0, Passed 20[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	unidade.AnuncioTest[0m
+[0m[[0mdebug[0m] [0m	controllers.ApplicationTest[0m
+[0m[[0mdebug[0m] [0m	ApplicationTest[0m
+[0m[[0mdebug[0m] [0m	IntegrationTest[0m
+[0m[[0mdebug[0m] [0m	controllers.IntegrationTest[0m

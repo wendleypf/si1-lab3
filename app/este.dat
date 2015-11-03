@@ -1,0 +1,52 @@
+               <div class="row">
+                  <div class="span5 offset1">
+                     
+                            @for(conversa <- anuncio.getListComentarios()) {
+                                @if(conversa.getPergunta() != null) {
+                                    <div class="pergunta">
+                                        <p>@conversa.getPergunta()</p>
+                                    </div>
+
+                                    @if(conversa.getResposta() == null) {
+                                        <a id="botaoResponderPergunta@anuncio.getId()" href="" data-toggle="modal" data-target="#responderModal@conversa.getIdConversa()"
+                                        class="finalizarAnuncio">Responder</a>
+
+                                        <div class="modal fade" id="responderModal@conversa.getIdConversa()">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                        <h4 class="modal-title">Resposta</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form action="#" method="POST">
+                                                            <div class="form-group">
+                                                                <label for="inputCodigo">Código</label>
+                                                                <input name="codigo" type="text" class="form-control" id="inputCodigo" placeholder="Código do seu anúncio"
+                                                                required pattern=".*\S+.*">
+                                                            </div>
+
+                                                            <div class="form-group">
+                                                                <label>Resposta</label>
+                                                                <input name="resposta" type="text" class="form-control" id="inputResposta" placeholder="Sua resposta"
+                                                                required pattern=".*\S+.*">
+                                                            </div>
+
+                                                            <button id="submitResponderPergunta" type="submit" class="btn btn-primary">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                }
+
+                                @if(conversa.getResposta() != null) {
+                                    <div class="resposta">
+                                        <p>@conversa.getResposta()</p>
+                                    </div>
+                                }
+
+                                <hr>
+                                }
+                  </div>
